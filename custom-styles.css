@@ -1,0 +1,26 @@
+:root {
+    --bs-primary: #ef88b5;
+    --bs-primary-rgb: 239, 136, 181;
+    --bs-secondary: #fc2f99;
+    --bs-secondary-rgb: 252, 47, 153;
+}
+
+body {
+    background-image: url("/images/pink-art-85-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.15);
+}
+
+.pink {
+    color: var(--bs-primary);
+}
+
+a.clickable-pink:hover {
+    text-decoration: underline !important;
+}
