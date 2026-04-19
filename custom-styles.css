@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/images/pink-art-85-bg-compressed.png") !important;
+    background-image: url("images/pink-art-85-bg-compressed.png") !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
